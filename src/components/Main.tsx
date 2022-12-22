@@ -29,7 +29,10 @@ export default function Main() {
     <View style={styles.container}>
       
       <Button title='Start' onPress={openModal} />
-      <InputComponent closeModalEv={closeModalEv} visibleModal={openModalBtn} test={create} />
+      <InputComponent 
+      closeModalEv={closeModalEv} 
+      visibleModal={openModalBtn} 
+      test={create} />
 
       {
         courseContent &&
